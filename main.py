@@ -4,9 +4,9 @@ from time import sleep
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-SIMILAR_ACCOUNT = "mathewfras"
-USERNAME = "sjjdzeinal@gmail.com"
-PASSWORD = "QWer123456!"
+SIMILAR_ACCOUNT = "YOUR FAVORITE ACCOUNT"
+USERNAME = "USERNAME"
+PASSWORD = "PASSWORD"
 
 
 class InstaFollower:
@@ -79,3 +79,4 @@ follower_bot = InstaFollower()
 follower_bot.login()
 follower_bot.find_followers()
 follower_bot.follow()
+
